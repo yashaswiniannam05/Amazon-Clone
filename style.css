@@ -1,0 +1,1215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    border: border-box;
+}
+
+/* Styling For Main Navbar */
+
+/* For Whole Navbar */
+.navbar{
+    height: 60 px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+}
+
+/* For Amazon Logo Div */
+.nav-logo{
+    height: 60px;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px;
+}
+
+/* For Amazon Logo */
+#amazon_logo{
+    height: 50px;
+    width:112.97px;
+    margin:0px 0px 0px 1px;
+    padding: 4px 0px 0px;
+}
+
+/* For Deliver to India Div */
+.nav-location{
+    height: 60px;
+    width: 90.64px;
+    color:#cccccc;
+    padding:0px 9px 0px 9px;
+    margin:5px 2px 5px 0px;
+    display:flex;
+    align-content:center;
+    flex-wrap: wrap;
+}
+
+/* For Deliver to Div */
+.deliver_to{
+    height: 14px;
+    width:52.64px;
+    color:#cccccc;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+/* For India Div */
+.India{
+    width: 52.64px;
+    height:16px;
+    color:white;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0px 0px 1px;
+}
+/* For Location Logo */
+.location_logo{
+    height: 18px;
+    width: 15px;
+}
+
+/* For India and Location Logo Div */
+.India_n_Logo{
+    display:flex;
+}
+
+/* For Entire Search Box Div */
+.nav-search{
+    height:60px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 4px 10px 3px;
+}
+
+/* For Select Div */
+.nav_all_and_dropdown{
+    background-color: #E6E6E6;
+    width:51.33px;
+    height:40px;
+    color: #0f1111;
+    font-size: 14px;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding:0px 0px 0px 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+/* For Select Option */
+#select{
+    height: 35px;
+    width: 200.67px;
+    color: #0f1111;
+    background-color: #E6E6E6;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    border:none;
+}
+
+/* For Entire Search Box */
+.nav-search{
+    height:38px;
+    width: 347.19 px;
+}
+
+/* For Search Box Div */
+.search_box{
+    width: 336.85 px;
+    height:39.33px;
+
+}
+
+/* For Search Input Bar */
+#nav_search_bar{
+    height:40px;
+    font-size: 18px;
+    width: 336.85 px;
+    padding-inline: 7px 10px 10px 0px;
+    border:none;
+    border-radius: 0px;
+}
+
+/* For Search Bar Button*/
+.search_button{
+    height:40px;
+    width: 45px;
+    margin:0px;
+    background-color: #febd68;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* For Entire Div after the Search Box */
+.after_search_box{
+    width:367.84;
+    height:60px;
+    display:flex;
+    align-content: center;
+    align-items: center;
+}
+
+/* Language Selection Div */
+.nav_language{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 73.38px;
+    height:50px;
+    margin: 0px 0px 0px 1px;
+    padding: 0px 9px 5px;
+}
+
+/* For American Flag Image */
+#american_flag{
+    width:21.6px;
+    height:16.2px;
+    margin: 0px 2px 1px 0px;
+}
+
+/* For EN and Dropdown */
+.EN_and_dropdown{
+    font-size: 14px;
+    color:white;
+    height:15px;
+    width: 18.38px;
+    display:flex;
+    align-items: center;
+}
+
+/* For EN dropdown */
+.EN_and_dropdown i{
+    height: 4px;
+    width:8px;
+    margin: 6px 0px 0px 2px;
+    padding-top: 0px;
+}
+
+/* For EN Select Div */
+.EN_select{
+    height: 4px;
+    width:8px;
+    margin: 6px 2px 0px 2px;
+    padding-top: 0px;
+    display:flex;
+}
+
+/* Span that contains America Flag, EN and dropdown */
+#nav_language_span{
+    display: flex;
+}
+
+/* Hello,Sign in; Accounts and Lists Div */
+.sign-in_account_list{
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:131.52px;
+    height: 50px;
+    padding:0px 9px 10px;
+}
+
+/* Sign in Div */
+.signin{
+    height:14px;
+    width:113.52px;
+    font-size: 12px;
+}
+
+/* For account list and dropdown */
+.account_list_and_dropdown{
+    height:15px;
+    width:113.52px;
+    font-size: 14px;
+    font-weight: 700;
+    display:flex;
+    align-items: center;
+}
+
+/* For dropdown of Account lists */
+.account_list_and_dropdown i{
+    height: 4px;
+    width:8px;
+    margin: 3px 0px 0px 5px;
+    padding-top: 0px;
+}
+
+
+/* For Entire Returns and Orders Div */
+.returns_and_orders{
+    color: white;
+    width:76.95px;
+    height:50px;
+    padding:0px 9px 10px;
+    display:flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+}
+
+/* For Returns Div */
+.returns{
+    height:14px;
+    font-size: 12px; 
+}
+
+/* For & Orders Div */
+.and_orders{
+    height:15px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* Cart Div */
+.nav_cart{
+    height:50px;
+    width:84px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0px 1px 0px 0px;
+    padding: 0px 9px 11px;
+}
+
+/* For Cart Logo */
+.nav_cart_logo i{
+    font-size:28px;
+}
+
+/* For all the borders of boxes in Navbar (natural) */
+#nav_box_border{
+    border:2px solid transparent;
+}
+
+/* For all the borders of boxes in Navbar (with hover) */
+#nav_box_border:hover{
+    border:2px solid white;
+}
+
+
+
+/* Styling For Sub Navbar */
+
+/* For Entire Sub Navbar */
+.sub_nav{
+    height: 39px;
+    background-color: #222f3d;
+    display:flex;
+    color: white;
+    font-size: 14px;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* For Hamburger pane and All Div */
+.Menu_and_All{
+    width:58.42px;
+    height:39px;
+    padding-inline: 4px 9px;
+    padding-left:8px;
+    display:flex;
+    align-items: center;
+}
+
+/* For Hamburger pane */
+.Menu_and_All i{
+    width:17px;
+    height:14px;
+}
+
+/* For text All */
+#All{
+    height:12px;
+    width:23.42px;
+    padding-bottom: 3px;
+    font-weight: 700;
+}
+
+/* Today's Deals Div */
+.todays_deals{
+    height:28px;
+    width:102.81px;
+    margin:5px 0px 6px;
+    padding-inline:8px 9px;
+    display:flex;
+    align-items: center;
+}
+
+/* For Customer Service Div */
+.customer_service{
+    width:128.34px;
+    height:28px;
+    margin:5px 0px 6px;
+    padding-inline:8px 9px;
+    display:flex;
+    align-items: center;
+}
+
+/* For Registry Div */
+.registry{
+    width:69.79px;
+    height:28px;
+    margin:5px 0px 6px;
+    padding-inline:8px 9px;
+    display:flex;
+    align-items: center;
+}
+
+/* For Gift Cards Div*/
+.gift_cards{
+    width:80.99px;
+    height:28px;
+    margin:5px 0px 6px;
+    padding-inline:8px 9px;
+    display:flex;
+    align-items: center;
+}
+
+/* For Sell Div */
+.sell{
+    width:41.38px;
+    height:28px;
+    margin:5px 0px 6px;
+    padding-inline:8px 9px;
+    display:flex;
+    align-items: center;
+}
+
+
+
+/* Styling For Hero Section*/
+
+/* For Entire Hero Section Div */
+.hero_section{
+    background-image: url("Hero_image.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:250px;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+/* For Hero Section Message Div */
+.hero_message{
+    background-color: #f5f6f6;
+    height:40px;
+    width:95%;
+    padding-right: 6px;
+    color:#0f1111;
+    font-size: 14px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* For Hero Section Clickable Message */
+.hero_message a{
+    color:#007185;
+}
+
+
+
+/* Styling For Shopping Section */
+
+/* For Entire Shopping Section Div */
+.shopping_section{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #FFD004;
+}
+
+
+/* For all the 4 boxes in one line */
+.box{
+    height:400px;
+    width:21%;
+    background-color: white;
+    padding: 15px 10px 10px 10px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+/* For all the headings in the boxes */
+h2{
+    color:black;
+    font-size: 21px;
+}
+
+/* For Headings in Box 1,2,3 and 4 */
+.heading1{
+    height: 27.3px;
+    width:270.89px;
+}
+.heading2{
+    height:40px;
+    width:270.89px;
+}
+
+/* For the content area of Box1 */
+.box1_content_area{
+    height: 85%;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+}
+
+
+/* For the content area of Box2 as its heading is long*/
+.long_heading_box1_content_area{
+    height: 82%;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+}
+
+/* For both the rows in box1 */
+.box1_row{
+    height:120px;
+    width:100em;
+    display:flex;
+    flex-direction: row;
+    margin-left:0;
+    margin-right:0;
+    align-self: flex-start;
+}
+
+/* Background images of the the image divs in box1 */
+.box1_image1{
+    background-image: url("box1_row1_image1.jpg");
+}
+.box1_image2{
+    background-image: url("box1_row1_image2.jpg");
+}
+.box1_image3{
+    background-image: url("box1_row2_image1.jpg");
+}
+.box1_image4{
+    background-image: url("box1_row2_image2.jpg");
+}
+
+/* For all the Image Divs in Box 1 */
+.box1_images{
+    height:100%;
+    width:95%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+/* For image and name Div */
+.image_and_name{
+    display:flex;
+    flex-wrap:wrap;
+    height:100%;
+    width:50%;
+    font-size: 12px;
+}
+
+/* For See more in Box1 */
+#single_line{
+    font-size: 13px;
+    color:#007185;
+    padding-bottom: 10px;
+    justify-self: flex-start;
+    text-align: left;
+}
+
+/* Background images of the the image divs in box2 */
+.box2_image1{
+    background-image: url("box2_row1_image1.jpg");
+}
+.box2_image2{
+    background-image: url("box2_row1_image2.jpg");
+}
+.box2_image3{
+    background-image: url("box2_row2_image1.jpg");
+}
+.box2_image4{
+    background-image: url("box2_row2_image2.jpg");
+}
+
+/* Background images of the the image divs in box3 */
+.box3_image1{
+    background-image: url("box3_row1_image1.jpg");
+}
+.box3_image2{
+    background-image: url("box3_row1_image2.jpg");
+}
+.box3_image3{
+    background-image: url("box3_row2_image1.jpg");
+}
+.box3_image4{
+    background-image: url("box3_row2_image2.jpg");
+}
+
+/* Background images of the the image divs in box4 */
+.box4_image1{
+    background-image: url("box4_row1_image1.jpg");
+}
+.box4_image2{
+    background-image: url("box4_row1_image2.jpg");
+}
+.box4_image3{
+    background-image: url("box4_row2_image1.jpg");
+}
+.box4_image4{
+    background-image: url("box4_row2_image2.jpg");
+}
+
+.shopping_section_2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #FFD004;
+    padding-bottom: 20px;
+}
+
+
+
+/* Styling For Shopping Section Divider */
+
+/* For Entire Shopping Section Divider Div */
+.divider{
+    padding-top: 20px;
+    display:flex;
+    justify-content: space-evenly;
+    width:100%;
+    height:300px;
+    background-color: #FFD004;
+}
+
+/* For Entire Shopping Section Divider Div White Box*/
+.divider_box{
+    background-color:white;
+    height: 250px;
+    width: 93%;
+    padding: 10px 20px 10px 20px;
+}
+
+/* For Divider Heading Div */
+.divider_heading{
+    font-size: 21px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+/* For Divider Content Area */
+.divider_content_area{
+    height:150px;
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+
+
+/* Styling for Shopping Section 2 */
+
+/* Background images of the the image divs in box5 */
+.box5_image1{
+    background-image: url("box6_row1_image1.jpg");
+}
+.box5_image2{
+    background-image: url("box6_row1_image2.jpg");
+}
+.box5_image3{
+    background-image: url("box6_row2_image1.jpg");
+}
+.box5_image4{
+    background-image: url("box6_row2_image2.jpg");
+}
+
+/* For Big Book Image Div in Box 6 */
+.book_image{
+    width:50%;
+    height:50%;
+    background-image: url("box5_image1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* For the Text Below Book Div */
+.text_below_book{
+    width:100%;
+    height:33.7px;
+    font-size: 12px;
+    color:#0f1111;
+    padding-top: 1px;
+}
+
+/* For the Book Price Div */
+.book_price{
+    display:flex;
+    font-size: 21px;
+    width:100%;
+}
+
+#book_rate sup{
+    font-size: 12px;
+}
+
+/* For Book List paragrapgh */
+#book_list{
+    font-size: 13px;
+    color: #565959;
+    align-self: flex-end;
+    margin-left: 5px;
+}
+
+/* For the Entire Book Options Div */
+.book_options{
+    height:30%;
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* For all the options divs */
+.options{
+    height: 85%;
+    width:22%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* For Option 1 Div */
+.option1{
+    border:4px solid #007185;
+}
+
+/* Options Divs on hovering */
+.options:hover{
+    border:1px solid rgb(39, 39, 136);
+}
+
+/* For all the book options images */
+.options img{
+    height:80%;
+    width:80%;
+    border-radius: 10px;
+}
+
+/* Background images of the the image divs in box7 */
+.box7_image1{
+    background-image: url("box7_row1_image1.jpg");
+}
+.box7_image2{
+    background-image: url("box7_row1_image2.jpg");
+}
+.box7_image3{
+    background-image: url("box7_row2_image1.jpg");
+}
+.box7_image4{
+    background-image: url("box7_row2_image2.jpg");
+}
+
+/* Background images of the the image divs in box8 */
+.single_picture_content{
+    background-image: url("box8_image.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    height:78%;
+}
+
+
+
+/* Styling for Browsing History */
+
+/* For outer div of browsing history */
+.browsing_history_outer_div{
+    width:100%;
+    height:380px;
+    display:flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+/* For inner div of Browsing History */
+.browsing_history{
+    width: 90%;
+    height:500px;
+}
+
+/* For Browsing History Heading Div */
+.browsing_history_heading{
+    display:flex;
+    height:44px;
+    width:100%;
+    justify-content:space-between;
+}
+
+/* For Brosing History Main Heading */
+#browsing_history_heading{
+    font-size: 18px;
+    font-weight: 700;
+    display:flex;
+}
+
+/* For Brosing History Page Number */
+#browsing_history_pageno{
+    font-size: 14px;
+    justify-self: flex-end;
+    text-align: right;
+}
+
+/* For Browsing History Content Area */
+.browsing_history_content_area{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+/* For all the Browsing History Images Divs */
+.bh_image{
+    height:165px;
+    width:165px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Background Images for the Browsing History Images Divs */
+.browsing_history_image1{
+    background-image: url("history_image1.jpg");
+}
+.browsing_history_image2{
+    background-image: url("history_image2.jpg");
+}
+.browsing_history_image3{
+    background-image: url("history_image3.jpg");
+}
+.browsing_history_image4{
+    background-image: url("history_image4.jpg");
+}
+.browsing_history_image5{
+    background-image: url("history_image5.jpg");
+}
+.browsing_history_image6{
+    background-image: url("history_image6.jpg");
+}
+
+/* For All the Browsing History Images Labels */
+.bh_image_label{
+    font-size: 13px;
+    color: #007185;
+    margin-top: 4px;
+}
+
+/* For Small name in the label */
+#bh_label_small_name{
+    font-size: 12px;
+}
+
+/* For Star Rating Div */
+.browsing_history_star_rating{
+    font-size: 12px;
+    color:#007185;
+    display:flex;
+}
+
+.browsing_history_star_rating p{
+    margin-left: 5px;
+    font-size: 11px;
+}
+
+/* For Line Below Rating */
+.browsing_history_line_below_rating{
+    font-size: 12px;
+    color: #565959;
+}
+
+/* For Whole Best Seller Line */
+.best_seller_line_div{
+    display:flex;
+    align-items: center;
+    height: 20px;
+}
+
+/* For Best Seller Div */
+.bh_best_seller_div{
+    width: 88px;
+    height: 16px;
+    font-size: 12px;
+    background-color: #C45500;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 700;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* For Best Seller Sideline Div */
+.best_seller_sideline{
+    font-size: 12px;
+    padding-left: 2px;
+    color: #007185;
+}
+
+/* For Best Seller Sideline Continuation Div */
+.best_seller_sideline_continuation{
+    font-size: 12px;
+    color: #007185;
+}
+
+/* For Green line in Pants Section */
+.bh_green_line{
+    color: green;
+    font-size: 12px;
+}
+
+.bh_price_div{
+    font-size: 17px;
+}
+
+.bh_price_div sup{
+    font-size: 11px;
+}
+
+.bh_shipping_price_div{
+    font-size: 12px;
+}
+
+/* Styling For Sign in div */
+
+/* For Sign_in outer div */
+.sign_in_div_outer_box{
+    height:150px;
+    width:100%;
+}
+
+/* For Sign in Div */
+.sign_in{
+    height:125px;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    border-bottom: 1px solid rgb(181, 181, 181);
+    border-top:1px solid rgb(181, 181, 181)  ;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    
+}
+
+/* For Sign In Div Heading */
+.sign_in_heading{
+    font-size: 24px;
+    font-weight: 700;
+    height:32px;
+}
+
+/* For Sign In Button */
+.sign_in_button{
+    height:28px;
+    width:230px;
+    background-color: #febd68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    border-radius: 2px;
+    border-radius: 1px solid rgb(255, 170, 0);
+    text-shadow: 0 1px 0 #ffe093;
+}
+
+/* For the text below the sign in button */
+.sign_in_bottom{
+    font-size: 11px;
+    height:15px;
+    padding-top: 4px;
+}
+
+/* For Sign in Bottom Clickable Message */
+.sign_in_bottom a{
+    color:#007185;
+}
+
+
+
+/* Styling for Back to Top Div */
+
+.back_to_top{
+    height:49px;
+    background-color: #31455b;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Styling for the links Div */
+
+/* For the Entire links div */
+.links{
+    height: 400px;
+    background-color: #232F3E;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding-top: 30px;
+}
+
+/* For the headings of all Links Sub Divs */
+.links_heading{
+    color: white;
+    font-size: 16px;
+    height:16.8px;
+    margin-top:6px;
+    margin-bottom: 14px;
+    font-weight: 700;
+}
+
+/* For all the links */
+.links1_links{
+    color:#DDDDDD;
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.links1_links li{
+    margin-bottom: 10px;
+}
+
+
+
+/* Styling for the div below the links div */
+
+/* For the entire div */
+.div_below_links_div{
+    height: 100px;
+    background-color: #232F3E;
+    border-top: 0.5px solid rgb(109, 109, 109);
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* For Footer Amazon Logo */
+.footer_amazon_logo{
+    height: 40px;
+    width:76px;
+    background-image: url("amazon_logo-removebg-preview.png");
+    background-size: cover;
+}
+
+/* For entire footer language div */
+.footer_language{ 
+    height: 25px;
+    width:80px;
+    border: 1px solid grey;
+    color:#DDDDDD;
+    font-size: 12px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between; 
+    align-items: center;
+    border-radius: 4px;
+    padding-left:3px;
+    margin-left: 40px;
+}
+
+/* For Footer Globe Icon */
+.globe_icon{
+    height:15px;
+    width:15px;
+}
+
+/* For footer Dropdown Arrow Icon */
+.dropdown_arrow_icon{
+    height:12px;
+    width:9px;
+    font-size: 8px;
+    justify-self:end;
+}
+
+/* For entire footer country div */
+.footer_country{
+    height: 25px;
+    width:100px;
+    border: 1px solid grey;
+    color:#DDDDDD;
+    font-size: 12px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly; 
+    align-items: center;
+    border-radius: 4px;
+    padding-left:3px;
+    margin-left: 5px;
+}
+
+/* For footer american flag image div */
+.footer_american_flag_image{
+    height:12px;
+    width:18px;
+    background-image: url("american_flag.jpeg");
+    background-size: contain;
+    background-repeat:no-repeat ;
+}
+
+
+
+/* Styling for Small Links Div */
+
+/* For Entire small Links Div Outer Box*/
+.Small_Links_Div_Outer_Box{
+    background-color: #131A22;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+/* For Entire small Links Div 1*/
+.small_links_1{
+    height: 110px;
+    width:80%;
+    background-color: #131A22;
+    display:flex;
+    justify-content:space-evenly;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+
+/* For all the small links div Headings */
+.small_links_heading{
+    color: #DDDDDD;
+    font-size: 12px;
+    height:16.8px;
+    margin-top:6px;
+}
+
+/* For all the small links div */
+.small_link{
+    color: #999999;
+    list-style-type: none;
+    font-size: 12px;
+}
+
+
+
+/* Styling for the bottom most div */
+
+/* For the entire bottom most div */
+.bottom_most_div{
+    height:60px;
+    width:100%;
+    background-color: #131A22;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* For Conditions and Privacy Div */
+.conditions_privacy_div{
+    height:13px;
+    width:60%;
+    list-style-type: none;
+    background-color: #131A22;
+    font-size: 12px;
+    color:#DDDDDD;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+/* For yes or no image */
+.conditions_privacy_div img{
+    height:14px;
+    width:29px;
+    align-self:flex-end;
+    margin-top: 2px;;
+}
+
+/* For Your Ads Privacy Choices and icon div */
+.choice{
+    height:13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* For Copyright Div */
+.copyright_div{
+    height:13px;
+    width:40%;
+    padding-top: 6px;
+    padding-bottom: 30px;
+    background-color: #131A22;
+    font-size: 12px;
+    color:#DDDDDD;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+.copyright_div i{
+    font-size: 9px;
+}
+
+/* For all the lists tag*/
+li{
+    text-decoration: none;
+}
+
+/* For all the borders of boxes in Navbar (with hover) */
+li:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color: #999999;
+}
+
+/* For all the small links headings*/
+.small_links_heading p{
+    text-decoration: none;
+}
+
+/* For all the borders of boxes in Navbar (with hover) */
+.small_links_heading p:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color: #999999;
+}
