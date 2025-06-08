@@ -9,6 +9,6 @@ A simple frontend clone of the Amazon homepage built using HTML and CSS. This wa
  
 # Why This Project?
 I took on this challenge to:<br>
- 🎯 Strengthen my front-end development skills
- 🎯 Improve my understanding of how e-commerce websites are designed
+ 🎯 Strengthen my front-end development skills<br>
+ 🎯 Improve my understanding of how e-commerce websites are designed<br>
  🎯 Build a portfolio project that showcases my ability to recreate complex interfaces
